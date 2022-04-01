@@ -1,7 +1,8 @@
 import type { NextPage } from "next";
 import Image from "next/image";
+import React from "react";
 
-const Home: NextPage = () => {
+const Employees: NextPage = () => {
   return (
     <div className="flex w-full h-screen overflow-y-hidden">
       {/* sidebar */}
@@ -11,10 +12,7 @@ const Home: NextPage = () => {
         </div>
 
         <div className="ml-10 flex flex-col max-w-min mt-10 gap-7 font-semibold text-indigo-200">
-          <a
-            className="inline-flex capitalize hover:text-white text-white"
-            href="#"
-          >
+          <a className="inline-flex capitalize hover:text-white" href="#">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6 mr-2"
@@ -32,7 +30,10 @@ const Home: NextPage = () => {
             dashboard
           </a>
 
-          <a className="inline-flex capitalize hover:text-white" href="#">
+          <a
+            className="inline-flex capitalize hover:text-white text-white"
+            href="#"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6 mr-2"
@@ -186,44 +187,12 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
+
         {/* main content */}
         <div className="w-full h-full p-5 overflow-y-scroll">
-          <div className="grid grid-cols-4 gap-5">
-            <div className="col-span-3 flex flex-col gap-5">
-              <div className="flex w-full gap-5">
-                <div className="bg-white shadow-md min-h-min w-1/3 p-3">
-                  <h5 className="mb-2 capitalize">employees</h5>
-                  <span className="inline-block font-semibold text-xl">15</span>
-                </div>
-                <div className="bg-white shadow-md min-h-min w-1/3 p-3">
-                  <h5 className="mb-2 capitalize">companies</h5>
-                  <span className="inline-block font-semibold text-xl">10</span>
-                </div>
-                <div className="bg-white shadow-md min-h-min w-1/3 p-3">
-                  <h5 className="mb-2 capitalize">contacts</h5>
-                  <span className="inline-block font-semibold text-xl">
-                    300
-                  </span>
-                </div>
-              </div>
-              <div className="bg-white shadow-md col-span-2 h-40 p-3">
-                <h5 className="mb-2 capitalize font-semibold text-lg">
-                  activities
-                </h5>
-              </div>
-              <div className="bg-white shadow-md col-span-2 h-80 p-3">
-                <h5 className="mb-2 capitalize font-semibold text-lg">
-                  analytics
-                </h5>
-              </div>
-            </div>
-            <div className="col-span-1 h-screen">
-              <div className="bg-white shadow-md w-full h-[800px] p-3">
-                <h5 className="mb-2 capitalize font-semibold text-lg">
-                  top products
-                </h5>
-              </div>
-            </div>
+          <div>
+            <h3 className="text-xl mb-3">Employees</h3>
+            <div className="w-full p-3 h-[600px] bg-white shadow">content</div>
           </div>
         </div>
       </div>
@@ -231,4 +200,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default Employees;
