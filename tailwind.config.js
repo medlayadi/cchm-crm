@@ -10,6 +10,7 @@ module.exports = {
         "cchm-indigo": "#211F5C",
         "cchm-blue": "#0090D4",
         "cchm-black": "#000D22",
+        "cchm-red": "#A20F2B",
       },
     },
   },

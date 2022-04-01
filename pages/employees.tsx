@@ -191,8 +191,102 @@ const Employees: NextPage = () => {
         {/* main content */}
         <div className="w-full h-full p-5 overflow-y-scroll">
           <div>
-            <h3 className="text-xl mb-3">Employees</h3>
-            <div className="w-full p-3 h-[600px] bg-white shadow">content</div>
+            <div className="w-full p-3 bg-white shadow">
+              <div className="flex justify-between mb-3 items-center">
+                <h3 className="text-lg font-semibold">Employees</h3>
+                <button className="bg-cchm-red inline-flex items-center gap-2 font-semibold text-white py-1 px-3 capitalize hover:text-cchm-red hover:bg-white hover:ring-cchm-red ring-2 ring-cchm-red drop-shadow rounded-sm">
+                  new
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-5 w-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div className="w-full">
+                <table className="w-full border">
+                  <tr className="text-left border">
+                    <th className="p-2 px-6 capitalize">name</th>
+                    <th className="p-2 px-6 capitalize">title</th>
+                    <th className="p-2 px-6 capitalize">email</th>
+                    <th className="p-2 px-6 capitalize">company</th>
+                    <th className="p-2 px-6 capitalize">role</th>
+                    <th className="p-2 px-6 capitalize">phone</th>
+                    <th className="p-2 px-6 capitalize">adresse</th>
+                  </tr>
+                  <tr className="border-b cursor-pointer hover:bg-gray-100">
+                    <td className="p-2 px-6">John Doe</td>
+                    <td className="p-2 px-6">Rocket Scientist</td>
+                    <td className="p-2 px-6">john@doe.com</td>
+                    <td className="p-2 px-6">Doe Space Transport</td>
+                    <td className="p-2 px-6">guest</td>
+                    <td className="p-2 px-6">+212-123456789</td>
+                    <td className="p-2 px-6">21st Jumpstreet, Chicago, USA</td>
+                  </tr>
+                  <tr className="border-b cursor-pointer hover:bg-gray-100">
+                    <td className="p-2 px-6">John Doe</td>
+                    <td className="p-2 px-6">Rocket Scientist</td>
+                    <td className="p-2 px-6">john@doe.com</td>
+                    <td className="p-2 px-6">Doe Space Transport</td>
+                    <td className="p-2 px-6">user</td>
+                    <td className="p-2 px-6">+212-123456789</td>
+                    <td className="p-2 px-6">21st Jumpstreet, Chicago, USA</td>
+                  </tr>
+                  <tr className="border-b cursor-pointer hover:bg-gray-100">
+                    <td className="p-2 px-6">John Doe</td>
+                    <td className="p-2 px-6">Rocket Scientist</td>
+                    <td className="p-2 px-6">john@doe.com</td>
+                    <td className="p-2 px-6">Doe Space Transport</td>
+                    <td className="p-2 px-6">admin</td>
+                    <td className="p-2 px-6">+212-123456789</td>
+                    <td className="p-2 px-6">21st Jumpstreet, Chicago, USA</td>
+                  </tr>
+                  <tr className="border-b cursor-pointer hover:bg-gray-100">
+                    <td className="p-2 px-6">John Doe</td>
+                    <td className="p-2 px-6">Rocket Scientist</td>
+                    <td className="p-2 px-6">john@doe.com</td>
+                    <td className="p-2 px-6">Doe Space Transport</td>
+                    <td className="p-2 px-6">admin</td>
+                    <td className="p-2 px-6">+212-123456789</td>
+                    <td className="p-2 px-6">21st Jumpstreet, Chicago, USA</td>
+                  </tr>
+                  <tr className="border-b cursor-pointer hover:bg-gray-100">
+                    <td className="p-2 px-6">John Doe</td>
+                    <td className="p-2 px-6">Rocket Scientist</td>
+                    <td className="p-2 px-6">john@doe.com</td>
+                    <td className="p-2 px-6">Doe Space Transport</td>
+                    <td className="p-2 px-6">admin</td>
+                    <td className="p-2 px-6">+212-123456789</td>
+                    <td className="p-2 px-6">21st Jumpstreet, Chicago, USA</td>
+                  </tr>
+                  <tr className="border-b cursor-pointer hover:bg-gray-100">
+                    <td className="p-2 px-6">John Doe</td>
+                    <td className="p-2 px-6">Rocket Scientist</td>
+                    <td className="p-2 px-6">john@doe.com</td>
+                    <td className="p-2 px-6">Doe Space Transport</td>
+                    <td className="p-2 px-6">admin</td>
+                    <td className="p-2 px-6">+212-123456789</td>
+                    <td className="p-2 px-6">21st Jumpstreet, Chicago, USA</td>
+                  </tr>
+                  <tr className="border-b cursor-pointer hover:bg-gray-100">
+                    <td className="p-2 px-6">John Doe</td>
+                    <td className="p-2 px-6">Rocket Scientist</td>
+                    <td className="p-2 px-6">john@doe.com</td>
+                    <td className="p-2 px-6">Doe Space Transport</td>
+                    <td className="p-2 px-6">admin</td>
+                    <td className="p-2 px-6">+212-123456789</td>
+                    <td className="p-2 px-6">21st Jumpstreet, Chicago, USA</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
           </div>
         </div>
       </div>

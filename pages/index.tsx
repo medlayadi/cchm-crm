@@ -192,36 +192,144 @@ const Home: NextPage = () => {
             <div className="col-span-3 flex flex-col gap-5">
               <div className="flex w-full gap-5">
                 <div className="bg-white shadow-md min-h-min w-1/3 p-3">
-                  <h5 className="mb-2 capitalize">employees</h5>
+                  <div className="flex justify-between mb-2">
+                    <h5 className="capitalize">employees</h5>
+                    <button>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-4 w-4"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+                        />
+                      </svg>
+                    </button>
+                  </div>
                   <span className="inline-block font-semibold text-xl">15</span>
                 </div>
                 <div className="bg-white shadow-md min-h-min w-1/3 p-3">
-                  <h5 className="mb-2 capitalize">companies</h5>
+                  <div className="flex justify-between mb-2">
+                    <h5 className="capitalize">companies</h5>
+                    <button>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-4 w-4"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+                        />
+                      </svg>
+                    </button>
+                  </div>
                   <span className="inline-block font-semibold text-xl">10</span>
                 </div>
                 <div className="bg-white shadow-md min-h-min w-1/3 p-3">
-                  <h5 className="mb-2 capitalize">contacts</h5>
+                  <div className="flex justify-between mb-2">
+                    <h5 className="capitalize">contacts</h5>
+                    <button>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-4 w-4"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+                        />
+                      </svg>
+                    </button>
+                  </div>
                   <span className="inline-block font-semibold text-xl">
                     300
                   </span>
                 </div>
               </div>
               <div className="bg-white shadow-md col-span-2 h-40 p-3">
-                <h5 className="mb-2 capitalize font-semibold text-lg">
-                  activities
-                </h5>
+                <div className="flex justify-between mb-2">
+                  <h5 className="capitalize font-semibold text-lg">
+                    activities
+                  </h5>
+                  <button>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-4 w-4"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={2}
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+                      />
+                    </svg>
+                  </button>
+                </div>
               </div>
               <div className="bg-white shadow-md col-span-2 h-80 p-3">
-                <h5 className="mb-2 capitalize font-semibold text-lg">
-                  analytics
-                </h5>
+                <div className="flex justify-between mb-2">
+                  <h5 className="capitalize font-semibold text-lg">
+                    activities
+                  </h5>
+                  <button>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-4 w-4"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={2}
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+                      />
+                    </svg>
+                  </button>
+                </div>
               </div>
             </div>
             <div className="col-span-1 h-screen">
               <div className="bg-white shadow-md w-full h-[800px] p-3">
-                <h5 className="mb-2 capitalize font-semibold text-lg">
-                  top products
-                </h5>
+                <div className="flex justify-between mb-2">
+                  <h5 className="capitalize font-semibold text-lg">
+                    activities
+                  </h5>
+                  <button>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-4 w-4"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={2}
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+                      />
+                    </svg>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
